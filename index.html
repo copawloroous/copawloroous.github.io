@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My HomePage</title>
+  <title>Zhenghao Hu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Hello, I'm [你的名字]</h1>
-  <p>Welcome to my GitHub Pages site!</p>
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+
+    <div class="hero-left">
+      <h1>Hu Zhenghao</h1>
+
+      <p class="subtitle">
+        PhD Student @ CASIA · Computer Vision · Multimodal Learning
+      </p>
+
+      <p class="desc">
+        I work on image fusion, hyperspectral image understanding, and multimodal generative models.
+        My research focuses on bridging structured modeling (Graph / Mamba) with vision foundation models.
+      </p>
+
+      <div class="links">
+        <a href="about.html">CV</a>
+        <a href="projects.html">Publications</a>
+        <a href="https://github.com/copawloroous">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=F5Qx7kAAAAAJ">Scholar</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="profile.jpg" class="avatar">
+    </div>
+
+  </div>
+
+
+  <!-- NEWS -->
+  <div class="card">
+    <h2>News</h2>
+    <ul>
+      <li>[2026] TIP paper accepted on spectral-state fusion Mamba.</li>
+      <li>[2025] TGRS paper published on self-supervised graph MAE.</li>
+      <li>[2025] National Scholarship awarded.</li>
+    </ul>
+  </div>
+
+
+  <!-- SELECTED PAPERS -->
+  <div class="card">
+    <h2>Selected Publications</h2>
+
+    <div class="paper">
+      <b>Self-Supervised Graph Masked Autoencoders</b>
+      <br>
+      TGRS 2025 · First Author
+      <p>Self-supervised graph MAE for hyperspectral image classification.</p>
+    </div>
+
+    <div class="paper">
+      <b>Spectral State Fusion Tree Mamba</b>
+      <br>
+      TIP 2026 · Co-first Author
+      <p>State-space spectral-spatial modeling for hyperspectral understanding.</p>
+    </div>
+
+    <div class="paper">
+      <b>PriorFusion</b>
+      <br>
+      TPAMI (Under Review)
+      <p>VFM-free semantic structural prior for image fusion.</p>
+    </div>
+
+  </div>
+
+</div>
 </body>
 </html>
