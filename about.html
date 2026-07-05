@@ -1,48 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CV | Hu Zhenghao</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum vitae of Zhenghao Hu." />
+  <title>CV | Zhenghao Hu</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<div class="container">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Zhenghao Hu</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">CV</a>
+        <a href="projects.html">Research</a>
+        <a href="mailto:huzhenghao2026@ia.ac.cn">Email</a>
+      </div>
+    </nav>
+  </header>
 
-<h1>Curriculum Vitae</h1>
+  <main class="container page">
+    <section class="page-title">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h1>Zhenghao Hu <span class="cn-name">胡正昊</span></h1>
+      <p>
+        Incoming Ph.D. student at the Institute of Automation, Chinese Academy of Sciences.
+        This page contains the complete information from my current CV.
+      </p>
+      <div class="hero-actions small-actions">
+        <a class="button primary" href="assets/zhenghao_hu_cv.pdf">Download CV PDF</a>
+        <a class="button" href="https://scholar.google.com/citations?user=F5Qx7kAAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="button" href="https://github.com/copawloroous" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="note">Placeholder: put the downloadable CV at <code>assets/zhenghao_hu_cv.pdf</code>, or change the link above.</p>
+    </section>
 
-<div class="card">
+    <section class="card profile-card">
+      <div>
+        <p class="eyebrow">Basic information</p>
+        <h2>Profile</h2>
+      </div>
+      <dl class="fact-grid">
+        <div><dt>Name</dt><dd>Hu Zhenghao / Zhenghao Hu / 胡正昊</dd></div>
+        <div><dt>Gender</dt><dd>Male</dd></div>
+        <div><dt>Date of Birth</dt><dd>2004.02</dd></div>
+        <div><dt>Political Status</dt><dd>Communist Party of China member</dd></div>
+        <div><dt>Hometown</dt><dd>Changzhou, Jiangsu, China</dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+8615251902808">+86 15251902808</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:huzhenghao2026@ia.ac.cn">huzhenghao2026@ia.ac.cn</a></dd></div>
+        <div><dt>Google Scholar</dt><dd><a href="https://scholar.google.com/citations?user=F5Qx7kAAAAAJ" target="_blank" rel="noopener">scholar.google.com/citations?user=F5Qx7kAAAAAJ</a></dd></div>
+        <div><dt>GitHub</dt><dd><a href="https://github.com/copawloroous" target="_blank" rel="noopener">github.com/copawloroous</a></dd></div>
+        <div><dt>Research Direction</dt><dd>Machine Learning, Computer Vision, Pattern Recognition</dd></div>
+        <div><dt>Research Interests</dt><dd>Generative Models, Multimodal Large Models, Self-supervised Learning, Graph Neural Networks, Mamba</dd></div>
+      </dl>
+      <p class="note privacy-note">
+        Privacy note: phone number, date of birth, hometown, and political status are included because they appear in the CV.
+        Remove these rows if you do not want them public on GitHub Pages.
+      </p>
+    </section>
 
-<h2>Education</h2>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic Background</h2>
+      </div>
+      <div class="cv-list">
+        <article class="cv-item">
+          <div class="cv-date">2026.09–2031.06</div>
+          <div>
+            <h3>Institute of Automation, Chinese Academy of Sciences, Beijing, China</h3>
+            <p><strong>Ph.D.</strong> in Pattern Recognition and Intelligent Systems. Direct Ph.D. admission by recommendation.</p>
+          </div>
+        </article>
+        <article class="cv-item">
+          <div class="cv-date">2022.09–2026.06</div>
+          <div>
+            <h3>Nanjing University of Information Science and Technology, Nanjing, Jiangsu, China</h3>
+            <p><strong>Bachelor's degree</strong> in Optical Information Science and Engineering. Double First-Class University.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<ul>
-<li><b>CASIA</b> — PhD in Pattern Recognition (2026–2031)</li>
-<li><b>Nanjing University of Information Science and Technology</b> — B.Eng (2022–2026)</li>
-</ul>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Publications</p>
+        <h2>Research Papers</h2>
+      </div>
+      <div class="paper-list">
+        <article class="paper-card featured">
+          <div class="paper-meta">Published · IEEE TGRS 2025 · First Author</div>
+          <h3>Self-Supervised Graph Masked Autoencoders for Hyperspectral Image Classification</h3>
+          <p><strong>Venue:</strong> <em>IEEE Transactions on Geoscience and Remote Sensing</em>，CAS Q1 TOP, CCF-B, IF 9.4.</p>
+          <p><strong>Bibliography:</strong> TGRS (2025), Volume 63: 5509918. DOI: <a href="https://doi.org/10.1109/TGRS.2025.3555967" target="_blank" rel="noopener">10.1109/TGRS.2025.3555967</a>. Published on 2025.03.28.</p>
+          <p>
+            <strong>Summary:</strong> This work proposes a self-supervised graph masked autoencoder for hyperspectral image classification.
+            It learns self-supervised features, uses graph convolutional encoding for multi-scale receptive-field information,
+            and designs a cross-correlation decoder to fuse multi-scale features, improving the accuracy of downstream supervised classification networks.
+          </p>
+        </article>
 
-</div>
+        <article class="paper-card">
+          <div class="paper-meta">Published · IEEE TIP 2026 · Second Author, Advisor First Author</div>
+          <h3>Spectral State Fusion Tree Mamba for Hyperspectral Image Classification</h3>
+          <p><strong>Venue:</strong> <em>IEEE Transactions on Image Processing</em>，CAS Q1 TOP, CCF-A, IF 15.3.</p>
+          <p><strong>Bibliography:</strong> TIP (2026), Volume 35: 42275320. DOI: <a href="https://doi.org/10.1109/TIP.2026.3700929" target="_blank" rel="noopener">10.1109/TIP.2026.3700929</a>. Published on 2026.06.11.</p>
+          <p>
+            <strong>Summary:</strong> This work proposes a spectral-state fusion tree Mamba algorithm for hyperspectral image classification.
+            It constructs reasonable spatial relationships through spatial and spectral tree scanning, introduces a spectral-state fusion mechanism,
+            and enables spectral feature extraction in the Mamba state domain, enhancing multi-scale spectral relationships and classification performance.
+          </p>
+        </article>
 
+        <article class="paper-card">
+          <div class="paper-meta">Under Review · IEEE TPAMI · Second Author, Advisor First Author</div>
+          <h3>PriorFusion: Semantic Structural Prior Attention for Image Fusion</h3>
+          <p><strong>Target Venue:</strong> <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>，CAS Q1 TOP, CCF-A, IF 20.4.</p>
+          <p>
+            <strong>Summary:</strong> This work proposes a unified image fusion framework named PriorFusion.
+            By enforcing semantic structural consistency in attention affinity matrices, it bypasses feature-space conflicts between vision foundation models and fusion backbones.
+            With fully frozen VFM priors, including SCPA and SSGM modules, it achieves state-of-the-art performance on six fusion tasks and downstream detection and segmentation.
+          </p>
+          <p class="note">Placeholder: add arXiv / code / project links when publicly available.</p>
+        </article>
 
-<div class="card">
+        <article class="paper-card">
+          <div class="paper-meta">In Progress · Target: AAAI Conference on Artificial Intelligence · First Author</div>
+          <h3>Multimodal Controllable Generation Model for Image Fusion</h3>
+          <p><strong>Target Venue:</strong> AAAI Conference on Artificial Intelligence, CCF-A.</p>
+          <p>
+            <strong>Summary:</strong> This project studies a generation-prior image fusion paradigm.
+            Original inputs are used as image conditions to preserve fidelity, while sample-wise text prompts control quality enhancement.
+            The goal is to move beyond blindly maximizing input fidelity metrics and achieve a controllable visual-quality trade-off between degraded fidelity and high-quality fidelity.
+          </p>
+          <p class="note">Placeholder: add project page, preprint, demo, or code links when available.</p>
+        </article>
+      </div>
+    </section>
 
-<h2>Research Interests</h2>
+    <section class="section two-column">
+      <article class="card">
+        <p class="eyebrow">Patents</p>
+        <h2>Authorized Invention Patents</h2>
+        <ol class="numbered-list">
+          <li>
+            <strong>一种基于光谱状态融合树 Mamba 的高光谱多光谱图像融合方法、系统及存储介质</strong><br />
+            First inventor. Authorized in 2025.09.
+          </li>
+          <li>
+            <strong>一种基于图掩码自编码器的遥感图像自监督学习方法</strong><br />
+            Second inventor, advisor first author. Authorized in 2024.10.
+          </li>
+          <li>
+            <strong>一种基于光谱空间融合状态注意力 Mamba 模型的图像融合方法</strong><br />
+            Third inventor. Authorized in 2025.10.
+          </li>
+        </ol>
+      </article>
 
-<p>
-Computer Vision · Multimodal Learning · Generative Models · Graph Neural Networks · Mamba Architectures
-</p>
+      <article class="card">
+        <p class="eyebrow">Projects</p>
+        <h2>Research Projects</h2>
+        <ol class="numbered-list">
+          <li>
+            <strong>基于自监督图掩码自编码器的高光谱图像分类算法研究</strong><br />
+            National College Student Innovation Project. Principal Investigator. 2024.05–2025.05.
+          </li>
+          <li>
+            <strong>基于光谱空间融合状态注意力的双分支 Mamba 模型的高光谱图像分类算法研究</strong><br />
+            National College Student Innovation Project. 2025.05–2026.05.
+          </li>
+        </ol>
+      </article>
+    </section>
 
-</div>
+    <section class="section two-column">
+      <article class="card">
+        <p class="eyebrow">Honors</p>
+        <h2>Representative Awards</h2>
+        <ol class="numbered-list dense">
+          <li>2024–2025 National Scholarship for Undergraduate Students, national top 0.4%, 2025.11.</li>
+          <li>NUIST President Scholarship, university top 0.25%, 2025.11.</li>
+          <li>NUIST Student Figure of the Year / Ruihua Cup Annual Student Figure, 15 students university-wide, top 0.0375%, 2025.12.</li>
+          <li>NUIST Youth May Fourth Model, 10 students university-wide, top 0.025%, 2026.05.</li>
+          <li>18th National College Student Innovation Annual Conference, Excellent Paper Award, national first-class award, 20 papers nationwide, ranked first, 2025.11.</li>
+          <li>Mathematical Contest in Modeling (MCM), Meritorious Winner, ranked first within the team, 2025.05.</li>
+        </ol>
+      </article>
 
+      <article class="card">
+        <p class="eyebrow">Service</p>
+        <h2>Student Work</h2>
+        <ol class="numbered-list dense">
+          <li>Deputy Secretary, Undergraduate Student Party Branch Committee, School of Physics and Optoelectronic Engineering, NUIST. 2025.02–2026.06.</li>
+          <li>President, Science and Technology Association, School of Physics and Optoelectronic Engineering, NUIST. 2024.05–2025.05.</li>
+        </ol>
+      </article>
+    </section>
+  </main>
 
-<div class="card">
-
-<h2>Contact</h2>
-
-<p>Email: huzhenghao2026@ia.ac.cn</p>
-<p>GitHub: copawloroous</p>
-
-</div>
-
-</div>
+  <footer class="footer container">
+    <p>© 2026 Zhenghao Hu. <a href="index.html">Home</a> · <a href="projects.html">Research</a> · <a href="mailto:huzhenghao2026@ia.ac.cn">Contact</a></p>
+  </footer>
 </body>
 </html>

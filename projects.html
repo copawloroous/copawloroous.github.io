@@ -1,51 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Publications</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Publications, patents, and research projects of Zhenghao Hu." />
+  <title>Research | Zhenghao Hu</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<div class="container">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Zhenghao Hu</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">CV</a>
+        <a href="projects.html" aria-current="page">Research</a>
+        <a href="mailto:huzhenghao2026@ia.ac.cn">Email</a>
+      </div>
+    </nav>
+  </header>
 
-<h1>Publications</h1>
+  <main class="container page">
+    <section class="page-title">
+      <p class="eyebrow">Research Portfolio</p>
+      <h1>Publications, Projects, and Patents</h1>
+      <p>
+        My research connects structured visual representation learning with foundation-model priors.
+        Current topics include hyperspectral image classification, image fusion, graph self-supervision,
+        Mamba/state-space modeling, and multimodal controllable generation.
+      </p>
+    </section>
 
-<div class="paper-card">
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Publications</p>
+        <h2>Research Papers</h2>
+      </div>
 
-<h3>Self-Supervised Graph Masked Autoencoders</h3>
-<p><b>TGRS 2025 · First Author</b></p>
-<p>Graph-based masked autoencoding for hyperspectral image classification.</p>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="research-thumb placeholder-thumb">Graph MAE</div>
+          <div class="research-content">
+            <div class="paper-meta">IEEE TGRS 2025 · First Author · Published</div>
+            <h3>Self-Supervised Graph Masked Autoencoders for Hyperspectral Image Classification</h3>
+            <p>
+              A self-supervised hyperspectral representation-learning method that masks graph-structured information,
+              encodes multi-scale receptive fields through graph convolution, and decodes cross-correlated features for improved supervised classification.
+            </p>
+            <ul class="clean-list compact">
+              <li><strong>Venue:</strong> IEEE Transactions on Geoscience and Remote Sensing, CAS Q1 TOP, CCF-B, IF 9.4.</li>
+              <li><strong>Bibliography:</strong> Volume 63: 5509918, published on 2025.03.28.</li>
+              <li><strong>DOI:</strong> <a href="https://doi.org/10.1109/TGRS.2025.3555967" target="_blank" rel="noopener">10.1109/TGRS.2025.3555967</a></li>
+            </ul>
+            <div class="tag-row"><span>Hyperspectral Image</span><span>Graph Learning</span><span>Masked Autoencoder</span><span>Self-supervised Learning</span></div>
+            <div class="link-row">
+              <a href="https://doi.org/10.1109/TGRS.2025.3555967" target="_blank" rel="noopener">Paper</a>
+              <a href="#">Code Placeholder</a>
+              <a href="#">Project Placeholder</a>
+            </div>
+          </div>
+        </article>
 
-</div>
+        <article class="research-card">
+          <div class="research-thumb placeholder-thumb">Tree Mamba</div>
+          <div class="research-content">
+            <div class="paper-meta">IEEE TIP 2026 · Second Author, Advisor First Author · Published</div>
+            <h3>Spectral State Fusion Tree Mamba for Hyperspectral Image Classification</h3>
+            <p>
+              A spectral-spatial tree-scanning Mamba model that builds reasonable node-position relationships,
+              fuses spectral states, and enhances multi-scale spectral modeling for classification.
+            </p>
+            <ul class="clean-list compact">
+              <li><strong>Venue:</strong> IEEE Transactions on Image Processing, CAS Q1 TOP, CCF-A, IF 15.3.</li>
+              <li><strong>Bibliography:</strong> Volume 35: 42275320, published on 2026.06.11.</li>
+              <li><strong>DOI:</strong> <a href="https://doi.org/10.1109/TIP.2026.3700929" target="_blank" rel="noopener">10.1109/TIP.2026.3700929</a></li>
+            </ul>
+            <div class="tag-row"><span>Mamba</span><span>State Space</span><span>Spectral-Spatial Fusion</span><span>Remote Sensing</span></div>
+            <div class="link-row">
+              <a href="https://doi.org/10.1109/TIP.2026.3700929" target="_blank" rel="noopener">Paper</a>
+              <a href="#">Code Placeholder</a>
+              <a href="#">Project Placeholder</a>
+            </div>
+          </div>
+        </article>
 
+        <article class="research-card">
+          <div class="research-thumb placeholder-thumb">PriorFusion</div>
+          <div class="research-content">
+            <div class="paper-meta">IEEE TPAMI · Second Author, Advisor First Author · Under Review</div>
+            <h3>PriorFusion: Semantic Structural Prior Attention for Image Fusion</h3>
+            <p>
+              PriorFusion is a unified image fusion framework designed to avoid the feature-space conflict between frozen vision foundation models and fusion backbones.
+              It uses semantic structural consistency in attention affinity matrices and frozen VFM priors, including SCPA and SSGM modules.
+            </p>
+            <ul class="clean-list compact">
+              <li><strong>Target Venue:</strong> IEEE Transactions on Pattern Analysis and Machine Intelligence, CAS Q1 TOP, CCF-A, IF 20.4.</li>
+              <li><strong>Tasks:</strong> six image-fusion tasks plus downstream detection and segmentation.</li>
+              <li><strong>Status:</strong> Under review.</li>
+            </ul>
+            <div class="tag-row"><span>Image Fusion</span><span>VFM Prior</span><span>Semantic Structure</span><span>Detection & Segmentation</span></div>
+            <div class="link-row">
+              <a href="#">Preprint Placeholder</a>
+              <a href="#">Code Placeholder</a>
+              <a href="#">Demo Placeholder</a>
+            </div>
+          </div>
+        </article>
 
-<div class="paper-card">
+        <article class="research-card">
+          <div class="research-thumb placeholder-thumb">GenFusion</div>
+          <div class="research-content">
+            <div class="paper-meta">AAAI · First Author · In Progress</div>
+            <h3>Multimodal Controllable Generation Model for Image Fusion</h3>
+            <p>
+              This project studies image fusion with generation priors: source images provide fidelity-preserving conditions,
+              while per-sample text prompts guide visual quality enhancement and enable controllable fusion quality trade-offs.
+            </p>
+            <ul class="clean-list compact">
+              <li><strong>Target Venue:</strong> AAAI Conference on Artificial Intelligence, CCF-A.</li>
+              <li><strong>Core Idea:</strong> move from metric-driven fidelity toward controllable high-quality fidelity.</li>
+              <li><strong>Status:</strong> Ongoing research.</li>
+            </ul>
+            <div class="tag-row"><span>Generative Models</span><span>Multimodal Prompting</span><span>Image Fusion</span><span>Controllable Generation</span></div>
+            <div class="link-row">
+              <a href="#">Project Placeholder</a>
+              <a href="#">Code Placeholder</a>
+              <a href="#">Demo Placeholder</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<h3>Spectral State Fusion Tree Mamba</h3>
-<p><b>TIP 2026 · Co-first Author</b></p>
-<p>State-space modeling for spectral-spatial learning.</p>
+    <section class="section two-column">
+      <article class="card">
+        <p class="eyebrow">Authorized patents</p>
+        <h2>Invention Patents</h2>
+        <ol class="numbered-list">
+          <li>
+            <strong>一种基于光谱状态融合树 Mamba 的高光谱多光谱图像融合方法、系统及存储介质</strong><br />
+            First inventor · Authorized 2025.09.
+          </li>
+          <li>
+            <strong>一种基于图掩码自编码器的遥感图像自监督学习方法</strong><br />
+            Second inventor, advisor first author · Authorized 2024.10.
+          </li>
+          <li>
+            <strong>一种基于光谱空间融合状态注意力 Mamba 模型的图像融合方法</strong><br />
+            Third inventor · Authorized 2025.10.
+          </li>
+        </ol>
+      </article>
 
-</div>
+      <article class="card">
+        <p class="eyebrow">Funded projects</p>
+        <h2>Innovation Projects</h2>
+        <ol class="numbered-list">
+          <li>
+            <strong>基于自监督图掩码自编码器的高光谱图像分类算法研究</strong><br />
+            National College Student Innovation Project · Principal Investigator · 2024.05–2025.05.
+          </li>
+          <li>
+            <strong>基于光谱空间融合状态注意力的双分支 Mamba 模型的高光谱图像分类算法研究</strong><br />
+            National College Student Innovation Project · 2025.05–2026.05.
+          </li>
+        </ol>
+      </article>
+    </section>
+  </main>
 
-
-<div class="paper-card">
-
-<h3>PriorFusion: Semantic Structural Prior Attention</h3>
-<p><b>TPAMI Under Review</b></p>
-<p>Bridging VFM and fusion networks via structural priors.</p>
-
-</div>
-
-
-<div class="paper-card">
-
-<h3>Multimodal Controllable Generation for Fusion</h3>
-<p><b>AAAI Submission</b></p>
-<p>Generative paradigm for controllable image fusion.</p>
-
-</div>
-
-</div>
+  <footer class="footer container">
+    <p>© 2026 Zhenghao Hu. Replace placeholder links with paper/code/demo URLs when available.</p>
+  </footer>
 </body>
 </html>
